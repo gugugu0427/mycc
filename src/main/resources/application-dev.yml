@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+girl:
+   cupSize: B
+   age: 20
+
+spring:
+   datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     
