@@ -23,6 +23,6 @@ public class HandleClazz {
             return ResultUitil.error(((MyExcepetion) e).getCode(),e.getMessage());
         }
         looger.info("异常信息{}",e.getMessage());
-     return ResultUitil.error(-1,"未知错误");
+     return ResultUitil.error(-1,"未知错误1");
     }
 }
