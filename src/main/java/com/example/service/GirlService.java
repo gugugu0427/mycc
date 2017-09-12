@@ -39,4 +39,9 @@ public class GirlService {
             throw new MyExcepetion(ResultCode.SUCCESS);
         }
     }
+
+    public Girl findOne(Integer id){
+
+        return girl.findOne(id);
+    }
 }
